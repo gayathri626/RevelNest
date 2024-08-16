@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+h1{
+    @apply text-black;
+    font-family: "Italiana", sans-serif;
+}
+
+.img1{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1)50%, rgba(0,0,0,0));
+}
+.p1{
+    @apply text-red-500 text-center;
+    font-family: "Jacques Francois", serif;
+    text-shadow: 10px;
+}
+.btn{
+    width: 205px;
+    height: 36px;
+    border-radius: 25px;
+    font-family: "Jacques Francois", serif;
+}
+.e1{
+    width: 519px;
+    height: 72px;
+}
+.f1{
+    width: 519px;
+    height: 72px;
+}
+.s1{
+    width: 519px;
+    height: 72px;
+}
+.n1{
+    width: 519px;
+    height: 72px;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    font-family: "Jacques Francois", serif;
+}
+.div2{
+    display:flex;
+    justify-content: center;
+    font-family: "Jacques Francois", serif;
+}
+.t1{
+    width: 1080px;
+    height: 251px;
+    font-family: "Jacques Francois", serif;
+} */
+
+

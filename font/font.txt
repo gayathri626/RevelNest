@@ -1,0 +1,5 @@
+  font-family: "Great Vibes", cursive;
+  font-family: "Passions Conflict", cursive;
+  font-family: "Jacques Francois", serif;
+  font-family: "Italiana", sans-serif;
+  font-family: "Fasthand", cursive;

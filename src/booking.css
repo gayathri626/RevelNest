@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* sangeetha */
+#h2booking{
+    font-family:  "Great Vibes", cursive;
+    font-size: 37px;
+    color: rgb(182, 158, 18);
+  }

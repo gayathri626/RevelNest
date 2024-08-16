@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <title>RevelNest</title>
+
+       <!-- favicon -->
+       <link rel="icon" type="img/png" href="../images/RN.png">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Great+Vibes&family=Italiana&family=Jacques+Francois&family=Passions+Conflict&display=swap" rel="stylesheet">    
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-100">
+
+<!-- navbar -->
+<header id="home" class="bg-gray-50">
+    <nav class="container flex justify-between items-center mx-auto p-8">
+      <div class="flex gap-3">
+        <img src="../images/RN(blackoutline).png" class="w-18 h-20" alt="">
+        <a href="#home" class="font-Great text-6xl pt-5">
+          RevelNest
+        </a>
+      </div>
+
+      <div>
+        <ul class="hidden lg:flex text-xl font-Jacques items-center space-x-6">
+          <li><a href="./index.html" class="text-black hover:text-gray-500 ease-in duration-200">Home</a></li>
+          <li><a href="./index.html#gallery" class="text-black hover:text-gray-500 ease-in duration-200">Gallery</a></li>
+          <li><a href="./contact.html" class="text-black hover:text-gray-500 ease-in duration-200">Contact</a></li>
+          <li><a href="./booking.html" class="text-black hover:text-gray-500 ease-in duration-200">Booking</a></li>
+          <li><button class="bg-gray-700 text-white hover: border-solid hover: border-2 hover: border-gray-600  rounded-md outline-8 p-2 hover:bg-gray-50 hover:text-gray-800 ease-in duration-200"><a href="./login.html"> Sign In</a></button></li>
+          <li><button class="bg-grey-50 text-gray-800 border-solid border-2 border-gray-600 rounded-md outline-8 p-2  hover:text-white hover:bg-gray-700 ease-in duration-200"><a href="./registration.html">Sign Up</a></button></li>
+        </ul>      
+      </div>
+      <!-- mobile -->
+       <div id="bar" class="lg:hidden cursor-pointer">
+        <i class="fa-solid fa-bars" style="color: #363636;"></i>
+       </div>
+       <!-- <div id="menu" class="">
+        <ul class="hidden lg:flex items-center space-x-6">
+          <li><a href="#home" class="text-black hover:text-gray-500 ease-in duration-200">Home</a></li>
+          <li><a href="#gallery" class="text-black hover:text-gray-500 ease-in duration-200">Galley</a></li>
+          <li><a href="#contact" class="text-black hover:text-gray-500 ease-in duration-200">Contact</a></li>
+          <li><a href="#booking" class="text-black hover:text-gray-500 ease-in duration-200">Booking</a></li>
+          <li><button class="bg-gray-700 text-white hover: border-solid hover: border-2 hover: border-gray-600  rounded-md outline-8 p-2 hover:bg-red-50 hover:text-gray-800 ease-in duration-200">Sign In</button></li>
+          <li><button class="bg-red-50 text-gray-800 border-solid border-2 border-gray-600 rounded-md outline-8 p-2  hover:text-white hover:bg-gray-700 ease-in duration-200">Sign Up</button></li>
+        </ul>   -->
+       <!-- </div> -->
+    </nav>
+   </header>
+
+<!-- booking section -->
+<h2 id="h2booking" class="text-center p-4 mt-16 font-Great text-yellow-700 text-4xl">We can't wait to meet you!</h2>
+<div class="flex justify-center items-start space-x-8">
+    <!-- Image -->
+    <div class="flex-shrink-0">
+        <img src="../images/booking1.jpg" width="510px" height="1100px" alt="">
+    </div>
+    <!-- Form -->
+    <div class="w-full max-w-xs">
+        <input class="w-full mb-4 p-2  border-solid border-2 border-gray-400 hover:border-gray-600 rounded" type="text" placeholder="First Name"><br><br>
+        <input class="w-full mb-4 p-2  border-solid border-2 border-gray-400 hover:border-gray-600 rounded" type="text" placeholder="Second Name"> <br><br>
+        <input class="w-full mb-4 p-2  border-solid border-2 border-gray-400 hover:border-gray-600 rounded" type="email" placeholder="Email"> <br><br>
+        <input class="w-full mb-4 p-2  border-solid border-2 border-gray-400 hover:border-gray-600 rounded" type="number" placeholder="Phone Number"> <br><br>
+        <input class="w-full mb-4 p-2  border-solid border-2 border-gray-400 hover:border-gray-600 rounded" type="text" placeholder="Event Name"><br><br>
+        <input class="w-full mb-4 p-2  border-solid border-2 border-gray-400 hover:border-gray-600 rounded" type="date" placeholder="Event Date"><br><br>
+        <input class="w-full mb-4 p-2  border-solid border-2 border-gray-400 hover:border-gray-600 rounded" type="text" placeholder="Approx. Guest Count"><br><br>
+        <input class="w-full mb-4 p-2  border-solid border-2 border-gray-400 hover:border-gray-600 rounded" type="text" placeholder="Approx. Budget"><br><br>
+        <textarea class="w-full  p-2  border-solid border-2 border-gray-400 hover:border-gray-600 rounded" rows="4" placeholder="We would love to learn more about you and your celebration. Please share any details you would like!"></textarea>
+    </div>
+</div>
+
+ <!-- submit button -->
+
+<div class="flex justify-center items-center">
+    <button class="px-4 py-2 m-5 text-white bg-gray-600 hover:bg-white hover:text-gray-600 border-solid border-2 hover: border-gray-700 rounded">
+        Submit
+    </button>
+</div>
+    <!-- footer -->
+    <hr>
+<footer class="bg-gray-300 pt-2">
+  <div>
+    <div class="my-5">
+      <section class="grid grid-cols-2 py-30 pt-10 pb-10">
+        <div class="flex flex-col justify-center pl-20">
+          <h1 class="font-Italiana text-center ml-16 text-7xl text-black">RevelNest</h1>
+          <h2 class="text-xl font-Jacques text-center ml-20 pt-2">Planning an event has never been easier! We offer various services to make your events stress-free and memorable.From premium corporate events and wedding planning to small-scale birthday parties, you can be sure we have it all covered. </h2>
+        </div>
+        <div class="flex justify-center items-center font-Italiana">
+          <ul class="text-4xl pr-10">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://www.youtube.com/">YouTube</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+  <hr>
+  <marquee loop="-1" class="text-2xl font-Italiana py-5 gap-1" behavior="scroll" direction="right"><a href="https://www.instagram.com/"> / FOLLOW ON INSTAGRAM / </a><a href="https://www.pinterest.com/">FIND US ON PINTEREST / </a><a href="#booking.html">RESERVE YOUR DATE / </a><a href="https://www.youtube.com/">VIEW OUR YOUTUBE  </a><a href="https://www.instagram.com/"> / FOLLOW ON INSTAGRAM / </a><a href="https://www.pinterest.com/">FIND US ON PINTEREST / </a><a href="#booking.html">RESERVE YOUR DATE / </a><a href="https://www.youtube.com/">VIEW OUR YOUTUBE  </a></marquee>
+  <img src="../images/footer.png" class="h-66 w-max pb-10"  alt="">
+  <hr>
+  <h3 class="text-center pb-10 pt-10">© 2024, RevelNest, All Rights Reserved</h3>
+</footer>
+<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
